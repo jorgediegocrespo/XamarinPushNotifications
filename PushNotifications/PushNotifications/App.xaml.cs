@@ -22,8 +22,7 @@ namespace PushNotifications
 
             AppCenter.Start("ios=4c8acd8f-9c6f-4769-9a80-83aa120e146a;" +
                             "android=19cf5020-4f59-4128-89bb-ec3e1cc6ae04;",
-            typeof(Push));
-            //AppCenter.Start("19cf5020-4f59-4128-89bb-ec3e1cc6ae04", typeof(Push));
+                            typeof(Push));
 
         }
 
